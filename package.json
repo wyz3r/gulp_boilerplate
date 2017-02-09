@@ -1,0 +1,23 @@
+{
+    "name": "gulp_boilerplate",
+    "version": "1.0.0",
+    "description": "boilerplate for front",
+    "main": "index.js",
+    "repository": "http://gl.connectit.com.mx:3100/wyzer/vrs_front.git",
+    "author": "Leonel Islas",
+    "license": "MIT",
+    "scripts": {
+        "dev": "gulp develop"
+    },
+    "dependencies": {
+        "browser-sync": "^2.18.7",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-copy": "^1.0.0",
+        "gulp-pug": "^3.2.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-util": "^3.0.8",
+        "run-sequence": "^1.2.2",
+        "stream-combiner2": "^1.1.1"
+    }
+}
